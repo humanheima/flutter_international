@@ -7,7 +7,8 @@
 [使用Intl包](https://book.flutterchina.club/chapter13/intl.html)上命令运行失败。
 
 ```
-flutter pub run intl_translation:extract_to_arb --output-dir=l10n-arb lib/l10n/localization_intl.dart
+
+flutter pub pub run intl_generator:extract_to_arb --output-dir=l10n-arb  lib/l10n/localization_intl.dart
 ```
 
 ###根据arb生成dart文件

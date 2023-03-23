@@ -17,9 +17,11 @@ class MyApp extends StatelessWidget {
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         // 注册我们的Delegate
-        //DemoLocalizationsDelegate(),
+        DemoLocalizationsDelegate(),
         IntlDemoLocalizationsDelegate()
       ],
+
+      //应用支持的语言列表，在本例中我们的应用只支持美国英语和中文简体两种语言
       supportedLocales: [
         const Locale('en', 'US'), // 美国英语
         const Locale('zh', 'CN'), // 中文简体

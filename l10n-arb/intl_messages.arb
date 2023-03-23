@@ -1,15 +1,19 @@
 {
-  "@@last_modified": "2020-07-12T11:32:14.813140",
+  "@@last_modified": "2023-03-23T20:11:38.171996",
   "title": "Flutter APP",
   "@title": {
     "description": "Title for the Demo application",
     "type": "text",
+    "placeholders_order": [],
     "placeholders": {}
   },
   "remainingEmailsMessage": "{howMany,plural, =0{There are no emails left}=1{There is {howMany} email left}other{There are {howMany} emails left}}",
   "@remainingEmailsMessage": {
     "description": "How many emails remain after archiving.",
     "type": "text",
+    "placeholders_order": [
+      "howMany"
+    ],
     "placeholders": {
       "howMany": {
         "example": 42
